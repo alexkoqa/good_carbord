@@ -1,0 +1,66 @@
+.product
+	padding-top: 50px
+	padding-bottom: 20px
+.product_title_block
+	display: block
+	text-align: center
+	font-size: 27px
+	text-transform: uppercase
+	margin-bottom: 40px
+	
+
+.product_main_block
+	display: inline-block
+	outline: 1px solid red
+	margin-bottom: 30px
+
+.product_card img
+	max-width: 100%
+
+.product_title
+	margin-bottom: -10px
+	font-weight: 700
+.product_title_block_2
+	display: inline-block
+	text-align: center
+	margin-bottom: 30px
+	width: calc(100%/2)
+
+
+.product_title_block_2 p
+	font-size: 20px
+	margin-bottom: 20px
+.product_button
+	display: inline-block
+	border: 2px solid #FF9D00
+	transition: all .3s linear
+	&:hover
+		border: 2px solid lighten(#ff9d00, 15%)
+
+.product_button_o
+	display: inline-block
+	border: 2px solid #9b9b9b
+	background: transparent
+	color: #9b9b9b
+	transition: all .3s linear
+	margin-right: 15px
+	&:hover
+		color: #fff
+		background: #9b9b9b
+
+	
+@media screen and (max-width: 910px)
+	.product_title_block_2
+		width: 100%
+	.product_title_block
+		margin-bottom: 20px
+@media screen and (max-width: 420px)
+	.product_title
+		font-size: 20px
+	.product_button_o
+		display: block
+		margin: 0 auto
+	.product_button
+		margin-top: 15px
+	.product_title_block_2 p
+		font-size: 15px
